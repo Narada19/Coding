@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.sidebar-dark .sidebar-brand {
+    color: #fff;
+    background: #ff9800;
+}
+
+.bg-yellow{
+    background: #ff9800 !important;
+}
+.btn-white{
+    background-color: #f8f9fc!important;
+}
+.show-index{
+    z-index: 10;
+ }
+.right-0{
+    right: 0;
+}
+
+.checkbox > input:checked {
+    background-color: #ff9800;
+}
+
+.btn-orange{
+    background: #ff9800 !important;
+}
+
+.sidebar-dark hr.sidebar-divider {
+    border-top: 1px solid rgb(0 0 0 / 8%);
+}
+
+.sidebar hr.sidebar-divider {
+    margin: 0 1rem 0.1rem;
+}
+
+.bg-gradient-primary {
+    background-color: #f9eede;
+    background-image: none;
+    background-size: cover;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fc00;
+    border-bottom: 1px solid #e3e6f000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+}
+
+.text-orange{
+    color: #ff9800 !important;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #ff9800;
+    text-decoration: none;
+}
+
+@media (min-width: 768px){
+    .sidebar {
+        width: 20rem!important;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
